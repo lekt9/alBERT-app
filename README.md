@@ -96,8 +96,31 @@ The knowledge graph grows smarter over time, making alBERT increasingly better a
 ### Quick Start
 
 1. Launch alBERT (⌥+Space)
-2. Type your command in natural language
-3. Press Enter and watch alBERT handle the rest
+2. Click the power button to enable browser learning
+3. Once the alBERT has learnt how things work, you can start using it
+4. Type your command in natural language
+5. Press Enter and watch alBERT handle the rest
+
+### Browser Learning
+
+To enable alBERT's learning capabilities:
+
+1. **Enable Learning**
+   - Click the power button in the launcher interface
+   - Grant permission when prompted
+   - The button will light up when active
+
+2. **What Gets Learned**
+   - Form submissions and interactions
+   - Navigation patterns
+   - Workflow sequences
+   - *Note: All data stays local on your machine*
+
+3. **Privacy Controls**
+   - Toggle learning on/off anytime with the power button
+   - Disable for sensitive browsing sessions
+   - Clear learned patterns from settings
+   - View and manage your knowledge graph
 
 ---
 
