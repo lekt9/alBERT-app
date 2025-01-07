@@ -87,7 +87,7 @@ The knowledge graph grows smarter over time, making alBERT increasingly better a
 
 ### Installation
 
-1. Download the latest release for your platform from our [releases page](https://github.com/yourusername/alBERT-launcher/releases)
+1. Download the latest release for your platform from our [releases page](https://github.com/lekt9/alBERT-app/releases)
 2. Install the application:
    - **macOS**: Double click the `.dmg` file and drag alBERT to your Applications folder
    - **Windows**: Run the `.exe` installer
