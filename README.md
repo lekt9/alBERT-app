@@ -1,134 +1,94 @@
-# alBERT Launcher
+# alBERT
 
-> **Experimental - Early Access**
-> 
-> alBERT is currently in early access mode as we push the boundaries of what's possible with AI automation. Features and capabilities are rapidly evolving. Join us in shaping the future of intelligent automation!
+**Your browser is about to become your most powerful tool.**
 
-Just type, and we'll handle the rest. alBERT is your AI-powered command bar that turns natural language into action across your entire digital world.
+alBERT transforms your browser into an intelligent workspace, enabling you to control any web application through natural language. Just press `⌘ + ;` or `ctrl + ;` and tell it what you need - it handles the rest.
 
-## Early Access Features
+```bash
+"Update our AWS instances and send a Slack summary to the team"
+"Pull Q4 metrics from all our analytics tools into a single report"
+"Review and categorize all unread emails from our enterprise clients"
+```
 
-These experimental capabilities are available in the current early access release:
+No more context switching. No more repetitive tasks. No more juggling between dozens of tabs.
 
-- **Natural Language Control**: Simply describe what you want - alBERT figures out the rest
-- **Universal Automation**: Works across any application, website, or service
-- **Learns From You**: Builds personalized workflows by observing your browser activity
-- **Multimodal Intelligence (Coming Soon)**: Understands text, images, and context to complete complex tasks
+## 🌟 The Power of Browser Intelligence
 
-## What Can alBERT Do?
+Imagine every internal system in your organization becoming instantly more powerful through an intelligent agent that:
 
-> Note: Features marked with are experimental and may evolve significantly
+### 1. Breaks Down System Silos
+- **Cross-System Workflows**: "Update the project timeline in JIRA based on the latest GitHub milestones"
+- **Unified Access**: One interface for your entire internal stack - from legacy systems to modern tools
+- **Smart Context Sharing**: Automatically carries context between systems (e.g., from Salesforce to ServiceNow)
 
-### Web Automation 
-- "Order my usual from DoorDash"
-- "Book a flight to New York for next week"
-- "Find and summarize recent AI news"
-- "Compare prices for this product across different stores"
+### 2. Automates Complex Workflows
+- **Multi-Step Processes**: "Onboard the new hire" automatically triggers actions across HR, IT, and facilities systems
+- **Intelligent Routing**: Routes requests through proper approval chains without manual intervention
+- **Error Recovery**: Automatically handles edge cases and retries failed operations
 
-### Data Integration 
-- "Pull last month's expenses from all my accounts"
-- "Sync my calendar events with Notion"
-- "Extract data from these PDFs into a spreadsheet"
-- "Find that image from last week's presentation"
+### 3. Enhances Human Capabilities
+- **Institutional Knowledge**: Learns your organization's specific processes and best practices
+- **Proactive Assistance**: "Prepare for the quarterly review" gathers data from all relevant systems
+- **Workflow Optimization**: Suggests improvements based on usage patterns
 
-### Smart Workflows 
-- "Set up my usual development environment"
-- "Create a new AWS instance with my standard config"
-- "Process all invoices in my downloads folder"
-- "Update status for all my JIRA tickets"
+### 4. Transforms Legacy Systems
+- **Modern Interface**: Natural language control for even the oldest internal tools
+- **API-Free Integration**: Works with any web-based system, no API needed
+- **Automatic Documentation**: Creates logs of all actions for compliance and training
 
-### Content Creation 
-- "Draft a blog post about my latest GitHub project"
-- "Create a presentation from these research papers"
-- "Summarize this week's meeting recordings"
-- "Generate social media posts from this article"
+## Why alBERT?
 
-## Key Features
+- **Access Everything**: Control your entire web stack - from internal dashboards to enterprise tools - through a single interface
+- **Stay in Flow**: Transform multi-step workflows into single commands
+- **Keep Your Security**: Uses your existing browser sessions and credentials - no new access needed
+- **Work Privately**: Everything runs locally. Your data and credentials never leave your machine
 
-### Intelligent Agents 
-- **Task Understanding**: Breaks down complex requests into actionable steps
-- **Context Awareness**: Considers your preferences and past actions
-- **Adaptive Learning**: Improves workflows based on your feedback
-- **Multi-Step Automation**: Handles complex sequences automatically
+## 🚀 Quick Start
 
-### Data Powers 
-- **Universal Search**: Find anything across all your digital spaces
-- **Smart Integration**: Connect and sync data between any services
-- **Knowledge Graph**: Build connections between your information
-- **Visual Processing**: Extract and understand information from images
+1. Download alBERT from the [releases page](https://github.com/lekt9/albert-launcher/releases)
+2. Move to Applications and run:
+   ```bash
+   xattr -dr com.apple.quarantine /Applications/alBERT.app
+   ```
+3. Press `⌘ + ;` on mac or `ctrl + ;` on windows and start commanding your browser
 
-### Privacy First
-- All processing happens locally on your machine
-- Your data never leaves your control
-- Bring your own AI models and API keys
-- Customizable data retention policies
+## 💡 What You Can Do
 
-## How It Works
+### Enterprise Systems
+- "Generate monthly compliance reports from ServiceNow"
+- "Sync JIRA tickets with our project timeline"
+- "Update Salesforce opportunities based on today's meetings"
 
-alBERT uses a powerful knowledge graph to understand and connect your digital world:
+### Development
+- "Deploy the staging branch and notify the QA channel"
+- "Check CI status across all our repositories"
+- "Create a PR for the bug fix and assign to the team lead"
 
-- **Action Learning**: Observes and learns from your browser interactions to understand common workflows
-- **Semantic Understanding**: Maps relationships between your actions, data, and applications
-- **Smart Adaptation**: Builds personalized automation paths based on your usage patterns
-- **Context Awareness**: Uses graph relationships to understand the full context of your requests
+### Analytics & Reporting
+- "Compare conversion rates across all our A/B tests"
+- "Build a dashboard of our key metrics from last quarter"
+- "Export user engagement data for the board meeting"
 
-### Privacy-First Architecture
+## 🛡️ Enterprise-Ready Security
 
-alBERT is designed with privacy at its core:
+- **Zero New Attack Surface**: Uses existing browser sessions
+- **Local-First Architecture**: All processing happens on your machine
+- **OS-Level Security**: Credentials stored in macOS Keychain
+- **Audit-Friendly**: Full logging of all automated actions
 
-- **Local Knowledge Graph**: Your entire knowledge graph is stored locally using an embedded graph database
-- **No Data Sharing**: Your actions, preferences, and patterns never leave your device
-- **Cloud Optional**: Only AI models run in the cloud - bring your own keys for complete control
-- **Offline Capable (Coming Soon)**: Core functionality works offline, cloud features are optional
+## 🔧 System Requirements
 
-The knowledge graph grows smarter over time, making alBERT increasingly better at understanding and automating your specific needs - all while keeping your data under your control.
+- macOS 10.15+
+- 8GB RAM recommended
+- Chrome/Chromium browser
+- Internet connection
 
-## Getting Started
+## 📚 Resources
 
-### Installation
+- [Documentation](https://docs.albertlauncher.com)
+- [GitHub Issues](https://github.com/lekt9/albert-launcher/issues)
+- [Discord Community](https://discord.gg/albertlauncher)
 
-1. Download the latest release for your platform from our [releases page](https://github.com/lekt9/alBERT-app/releases)
-2. Install the application:
-   - **macOS**: Double click the `.dmg` file and drag alBERT to your Applications folder
-   - **Windows**: Run the `.exe` installer
-   - **Linux**: Use the `.AppImage` file or install the `.deb` package
+## 📄 License
 
-### Quick Start
-
-1. Launch alBERT (⌥+Space)
-2. Click the power button to enable browser learning
-3. Once the alBERT has learnt how things work, you can start using it
-4. Type your command in natural language
-5. Press Enter and watch alBERT handle the rest
-
-### Browser Learning
-
-To enable alBERT's learning capabilities:
-
-1. **Enable Learning**
-   - Click the power button in the launcher interface
-   - Grant permission when prompted
-   - The button will light up when active
-
-2. **What Gets Learned**
-   - Form submissions and interactions
-   - Navigation patterns
-   - Workflow sequences
-   - *Note: All data stays local on your machine*
-
-3. **Privacy Controls**
-   - Toggle learning on/off anytime with the power button
-   - Disable for sensitive browsing sessions
-   - Clear learned patterns from settings
-   - View and manage your knowledge graph
-
----
-
-> **Early Access Program**
-> 
-> We're actively developing alBERT and would love your feedback! Join our early access program to help shape the future of intelligent automation.
-> 
-> - Report bugs and request features through GitHub issues
-> - Join our community discussions
-> - Get early access to new features
-> - Help us improve and evolve alBERT
+MIT License - see [LICENSE](LICENSE)
