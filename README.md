@@ -41,7 +41,7 @@ Imagine every internal system in your organization becoming instantly more power
 - **Access Everything**: Control your entire web stack - from internal dashboards to enterprise tools - through a single interface
 - **Stay in Flow**: Transform multi-step workflows into single commands
 - **Keep Your Security**: Uses your existing browser sessions and credentials - no new access needed
-- **Work Privately**: Everything runs locally. Your data and credentials never leave your machine
+- **Work Privately**: Everything runs locally (soon). Your data and credentials never leave your machine
 
 ## 🚀 Quick Start
 
@@ -82,12 +82,6 @@ Imagine every internal system in your organization becoming instantly more power
 - 8GB RAM recommended
 - Chrome/Chromium browser
 - Internet connection
-
-## 📚 Resources
-
-- [Documentation](https://docs.albertlauncher.com)
-- [GitHub Issues](https://github.com/lekt9/albert-launcher/issues)
-- [Discord Community](https://discord.gg/albertlauncher)
 
 ## 📄 License
 
