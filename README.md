@@ -4,6 +4,12 @@
 
 alBERT transforms your browser into an intelligent workspace, enabling you to control any web application through natural language. Just press `⌘ + ;` or `ctrl + ;` and tell it what you need - it handles the rest.
 
+To use: 
+1. Power on the extension to learn different abilities. Do so by pressing Command/Control + ; and pressing the Power button
+2. Go to settings > Create Ability > Type in what you previously accessed on the chrome that you want it to learn
+3. Wait for the LLM to learn how its done and test it.
+4. You can now let AI Agents have access to that ability!
+
 ```bash
 "Update our AWS instances and send a Slack summary to the team"
 "Pull Q4 metrics from all our analytics tools into a single report"
